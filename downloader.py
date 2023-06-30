@@ -15,13 +15,13 @@ class SCDownloader():
         with open(f'{title}.mp3', 'wb') as fp:
             fp.write(requests.get(url, stream=True).content)
             
-        #self.__remove_json_from_dir(filename)
+        self.__remove_json_from_dir(filename)
     
     def __get_track_name(self,url):
         filename = subprocess.check_output(
             ['youtube-dl' , '--get-filename', url] 
         ).decode('UTF-8').rstrip('\n')
-        print(filename)       
+        return filename 
     
     def __download_json_file(self, url):
         subprocess.call(
