@@ -14,7 +14,8 @@ Requires only installation of **youtube-dl**
 # Run
 if __name__ == "__main__":
     scd = SCDownloader()
-    scd.download(PUT_TRACK_URL_HERE)
+    track_url = "Put url here"
+    scd.download(track_url)
 ```
 
 **sc_downloader_input.py** could be executed throught command line
