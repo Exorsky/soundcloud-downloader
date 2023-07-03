@@ -4,7 +4,7 @@ Just put URL and enjoy with downloaded track :)
 
 ### Requirements
 Requires only installation of **youtube-dl**
-**apt install youtube-dl**
+```sudo apt install youtube-dl```
 
 ## How to use
 
