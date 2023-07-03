@@ -53,7 +53,7 @@ class SCDownloader():
 # Run
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        track_name = input("Please provide the SoundCloud track URL: ")
+        track_url= input("Please provide the SoundCloud track URL: ")
     else:
         track_url = sys.argv[1]
         
