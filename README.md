@@ -1,12 +1,12 @@
-# Description
+### Description
 Downloads any track or playlists from soundcloud without using SoundCloud API.
 Just put URL and enjoy with downloaded track :)
 
-# Requirements
-requires only installation of **youtube-dl**
+### Requirements
+Requires only installation of **youtube-dl**
 **apt install youtube-dl**
 
-# How to use
+## How to use
 
 **sc_downloader.py** just put soundcloud track URL:
 
@@ -17,9 +17,8 @@ if __name__ == "__main__":
     scd.download(PUT_TRACK_URL_HERE)
 ```
 
-**sc_downloader_input.py** could be executed throught command line.
-You could just execute script and then input soundcloud track URL or pass through command line:
-
+**sc_downloader_input.py** could be executed throught command line
+You could just execute script and then input soundcloud track URL or just pass through command line:
 ```
 python3 sc_downloader.py https://soundcloud.com/myabandonedhome/snowfall-w-oneheart  
 ```
