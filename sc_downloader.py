@@ -1,4 +1,3 @@
-import sys
 import subprocess
 import os
 import json
@@ -53,4 +52,5 @@ class SCDownloader():
 # Run
 if __name__ == "__main__":
     scd = SCDownloader()
-    scd.download("https://soundcloud.com/metahesh/the-end-is-the-beginning?in=jokey-491173194/sets/dark-ambient-music")
+    track_url = "Put url here"
+    scd.download(track_url)
